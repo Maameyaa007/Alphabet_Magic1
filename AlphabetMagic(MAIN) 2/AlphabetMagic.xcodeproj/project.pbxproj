@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32270FE29F72428000E2A24 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32270FD29F72428000E2A24 /* Launch Screen.storyboard */; };
+		F3674D8129F2BF70002E2C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3674D8029F2BF70002E2C17 /* AppDelegate.swift */; };
+		F3674D8329F2BF70002E2C17 /* arView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3674D8229F2BF70002E2C17 /* arView.swift */; };
+		F3674D8529F2BF70002E2C17 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3674D8429F2BF70002E2C17 /* Experience.rcproject */; };
+		F3674D8729F2BF71002E2C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3674D8629F2BF71002E2C17 /* Assets.xcassets */; };
+		F3674D8A29F2BF71002E2C17 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3674D8929F2BF71002E2C17 /* Preview Assets.xcassets */; };
+		F3674D9129F2BFAE002E2C17 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3674D9029F2BFAE002E2C17 /* homeView.swift */; };
+		F39AF2982A2917B3007F555E /* LetterF.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2972A2917B3007F555E /* LetterF.rcproject */; };
+		F39AF2AD2A2917C0007F555E /* LetterN.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2992A2917C0007F555E /* LetterN.rcproject */; };
+		F39AF2AE2A2917C0007F555E /* LetterL.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF29A2A2917C0007F555E /* LetterL.rcproject */; };
+		F39AF2AF2A2917C0007F555E /* LetterH.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF29B2A2917C0007F555E /* LetterH.rcproject */; };
+		F39AF2B02A2917C0007F555E /* LetterR.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF29C2A2917C0007F555E /* LetterR.rcproject */; };
+		F39AF2B12A2917C0007F555E /* LetterJ.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF29D2A2917C0007F555E /* LetterJ.rcproject */; };
+		F39AF2B22A2917C0007F555E /* LetterI.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF29E2A2917C0007F555E /* LetterI.rcproject */; };
+		F39AF2B42A2917C0007F555E /* LetterO.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A02A2917C0007F555E /* LetterO.rcproject */; };
+		F39AF2B52A2917C0007F555E /* LetterP.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A12A2917C0007F555E /* LetterP.rcproject */; };
+		F39AF2B62A2917C0007F555E /* LetterG.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A22A2917C0007F555E /* LetterG.rcproject */; };
+		F39AF2B72A2917C0007F555E /* LetterS.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A32A2917C0007F555E /* LetterS.rcproject */; };
+		F39AF2B82A2917C0007F555E /* LetterK.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A42A2917C0007F555E /* LetterK.rcproject */; };
+		F39AF2B92A2917C0007F555E /* LetterM.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A52A2917C0007F555E /* LetterM.rcproject */; };
+		F39AF2BA2A2917C0007F555E /* LetterT.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A62A2917C0007F555E /* LetterT.rcproject */; };
+		F39AF2BB2A2917C0007F555E /* letterY.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A72A2917C0007F555E /* letterY.rcproject */; };
+		F39AF2BC2A2917C0007F555E /* letterZ.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A82A2917C0007F555E /* letterZ.rcproject */; };
+		F39AF2BD2A2917C0007F555E /* letter W.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2A92A2917C0007F555E /* letter W.rcproject */; };
+		F39AF2BE2A2917C0007F555E /* LetterQ.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2AA2A2917C0007F555E /* LetterQ.rcproject */; };
+		F39AF2BF2A2917C0007F555E /* LetterV.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2AB2A2917C0007F555E /* LetterV.rcproject */; };
+		F39AF2C02A2917C0007F555E /* letterX.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F39AF2AC2A2917C0007F555E /* letterX.rcproject */; };
+		F3A9C5AB2A19F1B200DE4411 /* letters intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A9C5AA2A19F1B200DE4411 /* letters intro.mp3 */; };
+		F3A9C5AD2A19F23B00DE4411 /* words intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3A9C5AC2A19F23B00DE4411 /* words intro.mp3 */; };
+		F3B1E57E2A18F15300CEF180 /* words.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3B1E57D2A18F15300CEF180 /* words.mp3 */; };
+		F3B1E5802A18F15700CEF180 /* letters.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F3B1E57F2A18F15700CEF180 /* letters.mp3 */; };
+		F3E940182A0EDFD600F2AD7F /* letterB.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3E940172A0EDFD600F2AD7F /* letterB.rcproject */; };
+		F3E9401A2A0EDFDD00F2AD7F /* letterc .rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3E940192A0EDFDD00F2AD7F /* letterc .rcproject */; };
+		F3E9401C2A0EDFE500F2AD7F /* letterD.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3E9401B2A0EDFE500F2AD7F /* letterD.rcproject */; };
+		F3E9401E2A0EDFEC00F2AD7F /* LetterE.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F3E9401D2A0EDFEC00F2AD7F /* LetterE.rcproject */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F32270FD29F72428000E2A24 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F3674D7D29F2BF70002E2C17 /* AlphabetMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlphabetMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3674D8029F2BF70002E2C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3674D8229F2BF70002E2C17 /* arView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arView.swift; sourceTree = "<group>"; };
+		F3674D8429F2BF70002E2C17 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		F3674D8629F2BF71002E2C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3674D8929F2BF71002E2C17 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3674D9029F2BFAE002E2C17 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		F39AF2972A2917B3007F555E /* LetterF.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterF.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterF.rcproject"; sourceTree = "<group>"; };
+		F39AF2992A2917C0007F555E /* LetterN.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterN.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterN.rcproject"; sourceTree = "<group>"; };
+		F39AF29A2A2917C0007F555E /* LetterL.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterL.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterL.rcproject"; sourceTree = "<group>"; };
+		F39AF29B2A2917C0007F555E /* LetterH.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterH.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterH.rcproject"; sourceTree = "<group>"; };
+		F39AF29C2A2917C0007F555E /* LetterR.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterR.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterR.rcproject"; sourceTree = "<group>"; };
+		F39AF29D2A2917C0007F555E /* LetterJ.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterJ.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterJ.rcproject"; sourceTree = "<group>"; };
+		F39AF29E2A2917C0007F555E /* LetterI.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterI.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterI.rcproject"; sourceTree = "<group>"; };
+		F39AF2A02A2917C0007F555E /* LetterO.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterO.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterO.rcproject"; sourceTree = "<group>"; };
+		F39AF2A12A2917C0007F555E /* LetterP.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterP.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterP.rcproject"; sourceTree = "<group>"; };
+		F39AF2A22A2917C0007F555E /* LetterG.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterG.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterG.rcproject"; sourceTree = "<group>"; };
+		F39AF2A32A2917C0007F555E /* LetterS.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterS.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterS.rcproject"; sourceTree = "<group>"; };
+		F39AF2A42A2917C0007F555E /* LetterK.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterK.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterK.rcproject"; sourceTree = "<group>"; };
+		F39AF2A52A2917C0007F555E /* LetterM.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterM.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterM.rcproject"; sourceTree = "<group>"; };
+		F39AF2A62A2917C0007F555E /* LetterT.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterT.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterT.rcproject"; sourceTree = "<group>"; };
+		F39AF2A72A2917C0007F555E /* letterY.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = letterY.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/letterY.rcproject"; sourceTree = "<group>"; };
+		F39AF2A82A2917C0007F555E /* letterZ.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = letterZ.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/letterZ.rcproject"; sourceTree = "<group>"; };
+		F39AF2A92A2917C0007F555E /* letter W.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = "letter W.rcproject"; path = "../../AlphabetMagic 3/AlphabetMagic/letter W.rcproject"; sourceTree = "<group>"; };
+		F39AF2AA2A2917C0007F555E /* LetterQ.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterQ.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterQ.rcproject"; sourceTree = "<group>"; };
+		F39AF2AB2A2917C0007F555E /* LetterV.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = LetterV.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/LetterV.rcproject"; sourceTree = "<group>"; };
+		F39AF2AC2A2917C0007F555E /* letterX.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = letterX.rcproject; path = "../../AlphabetMagic 3/AlphabetMagic/letterX.rcproject"; sourceTree = "<group>"; };
+		F3A9C5AA2A19F1B200DE4411 /* letters intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "letters intro.mp3"; path = "../../../Downloads/letters intro.mp3"; sourceTree = "<group>"; };
+		F3A9C5AC2A19F23B00DE4411 /* words intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "words intro.mp3"; path = "../../../Downloads/words intro.mp3"; sourceTree = "<group>"; };
+		F3B1E57D2A18F15300CEF180 /* words.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = words.mp3; path = "../../Audio for app/words.mp3"; sourceTree = "<group>"; };
+		F3B1E57F2A18F15700CEF180 /* letters.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = letters.mp3; path = "../../Audio for app/letters.mp3"; sourceTree = "<group>"; };
+		F3E940172A0EDFD600F2AD7F /* letterB.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = letterB.rcproject; sourceTree = "<group>"; };
+		F3E940192A0EDFDD00F2AD7F /* letterc .rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "letterc .rcproject"; sourceTree = "<group>"; };
+		F3E9401B2A0EDFE500F2AD7F /* letterD.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = letterD.rcproject; sourceTree = "<group>"; };
+		F3E9401D2A0EDFEC00F2AD7F /* LetterE.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = LetterE.rcproject; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3674D7A29F2BF70002E2C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3674D7429F2BF70002E2C17 = {
+			isa = PBXGroup;
+			children = (
+				F3674D7F29F2BF70002E2C17 /* AlphabetMagic */,
+				F3674D7E29F2BF70002E2C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3674D7E29F2BF70002E2C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3674D7D29F2BF70002E2C17 /* AlphabetMagic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3674D7F29F2BF70002E2C17 /* AlphabetMagic */ = {
+			isa = PBXGroup;
+			children = (
+				F32270FD29F72428000E2A24 /* Launch Screen.storyboard */,
+				F3674D9029F2BFAE002E2C17 /* homeView.swift */,
+				F3674D8029F2BF70002E2C17 /* AppDelegate.swift */,
+				F3674D8229F2BF70002E2C17 /* arView.swift */,
+				F3B1E57F2A18F15700CEF180 /* letters.mp3 */,
+				F3A9C5AC2A19F23B00DE4411 /* words intro.mp3 */,
+				F3A9C5AA2A19F1B200DE4411 /* letters intro.mp3 */,
+				F3B1E57D2A18F15300CEF180 /* words.mp3 */,
+				F3674D8429F2BF70002E2C17 /* Experience.rcproject */,
+				F3E940172A0EDFD600F2AD7F /* letterB.rcproject */,
+				F3E940192A0EDFDD00F2AD7F /* letterc .rcproject */,
+				F3E9401B2A0EDFE500F2AD7F /* letterD.rcproject */,
+				F3E9401D2A0EDFEC00F2AD7F /* LetterE.rcproject */,
+				F39AF2972A2917B3007F555E /* LetterF.rcproject */,
+				F39AF2A92A2917C0007F555E /* letter W.rcproject */,
+				F39AF2A22A2917C0007F555E /* LetterG.rcproject */,
+				F39AF29B2A2917C0007F555E /* LetterH.rcproject */,
+				F39AF29E2A2917C0007F555E /* LetterI.rcproject */,
+				F39AF29D2A2917C0007F555E /* LetterJ.rcproject */,
+				F39AF2A42A2917C0007F555E /* LetterK.rcproject */,
+				F39AF29A2A2917C0007F555E /* LetterL.rcproject */,
+				F39AF2A52A2917C0007F555E /* LetterM.rcproject */,
+				F39AF2992A2917C0007F555E /* LetterN.rcproject */,
+				F39AF2A02A2917C0007F555E /* LetterO.rcproject */,
+				F39AF2A12A2917C0007F555E /* LetterP.rcproject */,
+				F39AF2AA2A2917C0007F555E /* LetterQ.rcproject */,
+				F39AF29C2A2917C0007F555E /* LetterR.rcproject */,
+				F39AF2A32A2917C0007F555E /* LetterS.rcproject */,
+				F39AF2A62A2917C0007F555E /* LetterT.rcproject */,
+				F39AF2AB2A2917C0007F555E /* LetterV.rcproject */,
+				F39AF2AC2A2917C0007F555E /* letterX.rcproject */,
+				F39AF2A72A2917C0007F555E /* letterY.rcproject */,
+				F39AF2A82A2917C0007F555E /* letterZ.rcproject */,
+				F3674D8629F2BF71002E2C17 /* Assets.xcassets */,
+				F3674D8829F2BF71002E2C17 /* Preview Content */,
+			);
+			path = AlphabetMagic;
+			sourceTree = "<group>";
+		};
+		F3674D8829F2BF71002E2C17 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3674D8929F2BF71002E2C17 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3674D7C29F2BF70002E2C17 /* AlphabetMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3674D8D29F2BF71002E2C17 /* Build configuration list for PBXNativeTarget "AlphabetMagic" */;
+			buildPhases = (
+				F3674D7929F2BF70002E2C17 /* Sources */,
+				F3674D7A29F2BF70002E2C17 /* Frameworks */,
+				F3674D7B29F2BF70002E2C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlphabetMagic;
+			productName = AlphabetMagic;
+			productReference = F3674D7D29F2BF70002E2C17 /* AlphabetMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3674D7529F2BF70002E2C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3674D7C29F2BF70002E2C17 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F3674D7829F2BF70002E2C17 /* Build configuration list for PBXProject "AlphabetMagic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3674D7429F2BF70002E2C17;
+			productRefGroup = F3674D7E29F2BF70002E2C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3674D7C29F2BF70002E2C17 /* AlphabetMagic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3674D7B29F2BF70002E2C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A9C5AB2A19F1B200DE4411 /* letters intro.mp3 in Resources */,
+				F32270FE29F72428000E2A24 /* Launch Screen.storyboard in Resources */,
+				F3A9C5AD2A19F23B00DE4411 /* words intro.mp3 in Resources */,
+				F3674D8A29F2BF71002E2C17 /* Preview Assets.xcassets in Resources */,
+				F3B1E5802A18F15700CEF180 /* letters.mp3 in Resources */,
+				F3B1E57E2A18F15300CEF180 /* words.mp3 in Resources */,
+				F3674D8729F2BF71002E2C17 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3674D7929F2BF70002E2C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39AF2BD2A2917C0007F555E /* letter W.rcproject in Sources */,
+				F39AF2B52A2917C0007F555E /* LetterP.rcproject in Sources */,
+				F39AF2B92A2917C0007F555E /* LetterM.rcproject in Sources */,
+				F3674D8329F2BF70002E2C17 /* arView.swift in Sources */,
+				F39AF2B12A2917C0007F555E /* LetterJ.rcproject in Sources */,
+				F3E940182A0EDFD600F2AD7F /* letterB.rcproject in Sources */,
+				F39AF2B22A2917C0007F555E /* LetterI.rcproject in Sources */,
+				F39AF2B72A2917C0007F555E /* LetterS.rcproject in Sources */,
+				F3674D9129F2BFAE002E2C17 /* homeView.swift in Sources */,
+				F39AF2BE2A2917C0007F555E /* LetterQ.rcproject in Sources */,
+				F39AF2BC2A2917C0007F555E /* letterZ.rcproject in Sources */,
+				F39AF2AF2A2917C0007F555E /* LetterH.rcproject in Sources */,
+				F39AF2B62A2917C0007F555E /* LetterG.rcproject in Sources */,
+				F3674D8129F2BF70002E2C17 /* AppDelegate.swift in Sources */,
+				F39AF2BB2A2917C0007F555E /* letterY.rcproject in Sources */,
+				F39AF2BA2A2917C0007F555E /* LetterT.rcproject in Sources */,
+				F3E9401E2A0EDFEC00F2AD7F /* LetterE.rcproject in Sources */,
+				F39AF2B02A2917C0007F555E /* LetterR.rcproject in Sources */,
+				F39AF2AE2A2917C0007F555E /* LetterL.rcproject in Sources */,
+				F3E9401C2A0EDFE500F2AD7F /* letterD.rcproject in Sources */,
+				F39AF2BF2A2917C0007F555E /* LetterV.rcproject in Sources */,
+				F39AF2B42A2917C0007F555E /* LetterO.rcproject in Sources */,
+				F39AF2C02A2917C0007F555E /* letterX.rcproject in Sources */,
+				F39AF2982A2917B3007F555E /* LetterF.rcproject in Sources */,
+				F39AF2B82A2917C0007F555E /* LetterK.rcproject in Sources */,
+				F39AF2AD2A2917C0007F555E /* LetterN.rcproject in Sources */,
+				F3E9401A2A0EDFDD00F2AD7F /* letterc .rcproject in Sources */,
+				F3674D8529F2BF70002E2C17 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3674D8B29F2BF71002E2C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3674D8C29F2BF71002E2C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3674D8E29F2BF71002E2C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlphabetMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = HG2462YF9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maameyaa.AlphabetMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3674D8F29F2BF71002E2C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AlphabetMagic/Preview Content\"";
+				DEVELOPMENT_TEAM = HG2462YF9B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = maameyaa.AlphabetMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3674D7829F2BF70002E2C17 /* Build configuration list for PBXProject "AlphabetMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3674D8B29F2BF71002E2C17 /* Debug */,
+				F3674D8C29F2BF71002E2C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3674D8D29F2BF71002E2C17 /* Build configuration list for PBXNativeTarget "AlphabetMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3674D8E29F2BF71002E2C17 /* Debug */,
+				F3674D8F29F2BF71002E2C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3674D7529F2BF70002E2C17 /* Project object */;
+}
